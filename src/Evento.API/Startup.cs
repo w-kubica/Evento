@@ -1,5 +1,4 @@
 using System.Text;
-using AutoMapper;
 using Evento.Core.Repositories;
 using Evento.Infrastructure.Mappers;
 using Evento.Infrastructure.Repositories;
@@ -26,7 +25,7 @@ public class Startup
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IEventService, EventService>();
         services.AddScoped<IUserService, UserService>();
-        services.AddSingleton<IMapper>(AutoMapperConfig.Initialize());
+        services.AddSingleton(AutoMapperConfig.Initialize());
 
         var jwtSettings = Configuration.GetSection("jwt");
         services.Configure<JwtSettings>(jwtSettings);

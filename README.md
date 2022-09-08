@@ -6,11 +6,11 @@ Kod źródłowy powstały podczas kursu ASP.NET autorstwa Piotra Gankiewicza. </
 ## Zawartość kursu
 
 Kurs obejmował: 
-- pośrednie modele DTO, kontener IoC oraz wstrzykiwanie zależności,
 - operacje HTTP, definiowanie ścieżek, użycie nagłówków, zwracanie poprawnych kodów operacji,
 - architektura – *Domain Driven Design*, *Onion architecture*,
 - projektowanie *RESTful API*,
 - domeny systemowe,
 - stosowanie enkapsulacji,
 - mechanizm *Inversion of Control*,
-- serwisy oraz repozytoria.
+- serwisy oraz repozytoria,
+- pośrednie modele DTO, kontener IoC oraz wstrzykiwanie zależności.
